@@ -111,5 +111,6 @@ int main() {
 
 	cout << "Simulated theoretical price of option is " << average << ".";
 
+	_aligned_free(output);
 	return EXIT_SUCCESS;
 }
